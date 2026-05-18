@@ -1,46 +1,78 @@
-// noticias.js moderno 2026
+// ultimas noticias.js moderno 2026
 
 // Array de noticias compartido
 const noticias = [
-  {
-    titulo: "⚽ El auge del deporte femenino",
-    descripcion: "El reconocimiento y apoyo al deporte femenino crece a nivel mundial.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    fecha: "24 Ene 2026",
+      {
+    titulo: "El Estadio Banorte cambia su nombre a Estadio Ciudad de México por segunda vez.",
+    descripcion: "Decisión del FIFA que no debe de tener nombre de marca comerciales.",
+    img: "https://lh3.googleusercontent.com/d/1roP2yce8osv4TsaPiSGGyjTjAvgghPeP=w1000",
+    fecha: "15 May 2026",
     categoria: "Deportes",
-    link: "No_disponible.html"
+    link: "Post_9.html"
+  },
+    {
+    titulo: "México, Estados Unidos, Canada - FIFA 2026",
+    descripcion: "Partido mundial de america.",
+    img: "https://lh3.googleusercontent.com/d/1DAqWO_vmoibF3hwyxeHcMHmtdcmxApI6=w1000",
+    fecha: "15 May 2026",
+    categoria: "Deportes",
+    link: "Post_8.html"
+  },
+    {
+    titulo: "No dejes a los niños solos.",
+    descripcion: "Pelicula mexicana.",
+    img: "https://lh3.googleusercontent.com/d/1bsBAVO6iJY3swu0JkW__rdoazrwdOWLh=w1000",
+    fecha: "14 May 2026",
+    categoria: "Peliculas",
+    link: "Post_7.html"
+  },
+    {
+    titulo: "Gmail le dice adios a los 15 gb de almacenamiento gratis al no registrar tu numero telefonico sera 5 gb.",
+    descripcion: "Google gmail acaba de modificar su almacenamiento al registrar una nueva cuenta.",
+    img: "https://lh3.googleusercontent.com/d/1xjmb87cuA-xYImzuFlmLGGHw9P2NqUrk=w1000",
+    fecha: "14 May 2026",
+    categoria: "Tecnologia",
+    link: "Post_6.html"
   },
   {
-    titulo: "🤖 Inteligencia Artificial en la educación",
-    descripcion: "La IA transforma la forma en que aprendemos y enseñamos en las aulas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    fecha: "23 Ene 2026",
-    categoria: "Tecnología",
-    link: "No_disponible.html"
+    titulo: "Whatsapp lanza el modo incognito.",
+    descripcion: "Meta IA",
+    img: "https://lh3.googleusercontent.com/d/1Iu8xz8bpfqu1gLrrt7EHV69DxDevdCgm=w1000",
+    fecha: "13 May 2026",
+    categoria: "Tecnologia",
+    link: "Post_5.html"
   },
   {
-    titulo: "🎭 Cultura digital en expansión",
-    descripcion: "El arte y la música se reinventan con realidad aumentada y plataformas digitales.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    fecha: "22 Ene 2026",
-    categoria: "Cultura",
-    link: "No_disponible.html"
+    titulo: "El peso mexicano se estable en $17.25 por dólar en México.",
+    descripcion: "Economia financiera del dolar.",
+    img: "https://lh3.googleusercontent.com/d/1J7O0Hs3Y_i8bdSLQ3qqEw1L8ht9EoWjm=w1000",
+    fecha: "12 May 2026",
+    categoria: "Economia",
+    link: "Post_4.html"
   },
   {
-    titulo: "🚀 Exploración espacial interplanetaria",
-    descripcion: "Nuevas misiones espaciales abren camino a la exploración de Marte y más allá.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    fecha: "21 Ene 2026",
-    categoria: "Internacional",
-    link: "No_disponible.html"
+    titulo: "Refinería Antonio Dovalí Jaime de Petróleos Mexicanos se incendia.",
+    descripcion: "Pemex",
+    img: "https://lh3.googleusercontent.com/d/1_5RkrbYFvIXTPjHjtHGFmVX6ckYNBvIk=w1000",
+    fecha: "11 May 2026",
+    categoria: "Tecnologia",
+    link: "Post_3.html"
   },
   {
-    titulo: "🌱 Economía verde y sostenible",
-    descripcion: "La transición energética impulsa nuevas oportunidades de inversión y desarrollo.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    fecha: "20 Ene 2026",
-    categoria: "Economía",
-    link: "No_disponible.html"
+    titulo: "¿Donde se encuentra el hantavirus?",
+    descripcion: "Precaución con roedores.",
+    img: "https://lh3.googleusercontent.com/d/1uydFoK-jOeMNVJOfQoeBOgJZ5ilzAXqm=w1000",
+    fecha: "7 May 2026",
+    categoria: "Salud",
+    link: "Post_2.html"
+  },
+  {
+    titulo: "La CDMX este fin de semana: alerta amarilla por calor de 32 °C.",
+    descripcion: "El intenso calor y la posibilidad de tormentas dispersas en todas las alcaldia en este fin de semana.",
+    img: "https://media.istockphoto.com/id/1132330190/es/foto/plaza-del-z%C3%B3calo-y-catedral-de-la-ciudad-de-m%C3%A9xico-ciudad-de-m%C3%A9xico-m%C3%A9xico.jpg?b=1&s=612x612&w=0&k=20&c=pl4eSp6h7fRAqo5NaxevyYcNw1uTJSGr8npGo8IZT3k=",
+    fecha: "1 May 2026",
+    categoria: "Medio ambiente",
+    link: "Post_1.html"
   }
 ];
 
