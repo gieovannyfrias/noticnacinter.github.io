@@ -197,9 +197,6 @@ function renderNoticias(contenedorId) {
 
 /* 📱 Responsive */
 @media (max-width: 768px) {
-  .news-card {
-    width: 200px;
-  }
   .carousel-arrow {
     width: 32px;
     height: 32px;
@@ -208,9 +205,7 @@ function renderNoticias(contenedorId) {
 }
 
 @media (max-width: 480px) {
-  .news-card {
-    width: 160px;
-  }
+
   .carousel-arrow {
     display: block; /* en móvil solo scroll táctil */
   }
