@@ -61,7 +61,7 @@ function renderRecientes() {
 
   recientes.forEach(item => {
     const card = document.createElement("article");
-    card.classList.add("news-card");
+    card.classList.add("news-card_4");
     card.innerHTML = `
       <a href="${item.link}" class="latest-main_1">
         <img src="${item.img}" alt="${item.titulo}">
@@ -92,7 +92,7 @@ function renderRecientes() {
   scroll-behavior: smooth;
 }
 
-.news-card {
+.news-card_4 {
   min-width: 250px;
   background: #1e1e2f;
   border-radius: 12px;
@@ -102,20 +102,20 @@ function renderRecientes() {
   flex-shrink: 0;
 }
 
-.news-card a {
+.news-card_4 a {
   display: block;
   text-decoration: none;
   color: #fff;
   padding: 12px;
 }
 
-.news-card img {
+.news-card_4 img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.news-card h3 {
+.news-card_4 h3 {
   font-size: 1rem;
   margin: 0 0 6px 0;
   background: linear-gradient(90deg, #ff1e1e, #ffd700, #2575fc);
@@ -123,7 +123,7 @@ function renderRecientes() {
   -webkit-text-fill-color: transparent;
 }
 
-.news-card:hover {
+.news-card_4:hover {
   transform: scale(1.05);
 }
 
@@ -163,7 +163,7 @@ function renderRecientes() {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .news-card {
+  .news-card_4 {
     min-width: 200px;
   }
   .recientes-arrow {
@@ -174,7 +174,7 @@ function renderRecientes() {
 }
 
 @media (max-width: 480px) {
-  .news-card {
+  .news-card_4 {
     min-width: 160px;
   }
   .recientes-arrow {
