@@ -227,25 +227,25 @@
 
     <!-- Bloque derecho con 4 artículos -->
     <div class="latest-side">
-      <article class="news-card">
+      <article class="news-card_1">
               <a href="Manifestaciones_ciudadanas.html" class="latest-main_1">
         <img src="https://lh3.googleusercontent.com/d/1Q3BRQ6UecO0MFQH4EZ50Xb5Au3le7Goj=w1000" alt="Manifestaciones">
         <h4>Manifestaciones ciudadanas</h4>
                 <p>Multitudes se concentran en las principales avenidas para exigir cambios inmediatos.</p></a>
       </article>
-      <article class="news-card">
+      <article class="news-card_1">
               <a href="Economía_en_alerta.html" class="latest-main_1">
                 <img src="https://lh3.googleusercontent.com/d/16MyzPoRCEp9TkcCYZlUEx-lsF1OhQY8b=w1000" alt="Economía">
         <h4>Economía en alerta</h4>
                 <p>El peso mexicano registra movimientos inesperados frente al dólar.</p></a>
       </article>
-      <article class="news-card">
+      <article class="news-card_1">
               <a href="Deportes.html" class="latest-main_1">
         <img src="https://lh3.googleusercontent.com/d/15hKnbCFO7-VNIxmMR2QwDeaxEgJg2aPf=w1000" alt="Deportes">
         <h4>Deportes</h4>
                 <p>La liga local se prepara para la final del campeonato.</p></a>
       </article>
-      <article class="news-card">
+      <article class="news-card_1">
                       <a href="Tecnología.html" class="latest-main_1">
         <img src="https://lh3.googleusercontent.com/d/182io0ngCpWxYX3cFAJ5nIZdAQY9PUBfI=w1000" alt="Tecnología">
         <h4>Tecnología</h4>
@@ -256,25 +256,25 @@
 
   <!-- Bloque inferior con otros 4 artículos -->
   <div class="latest-bottom">
-    <article class="news-card">
+    <article class="news-card_1">
                     <a href="Medio_ambiente.html" class="latest-main_1">
       <img src="https://lh3.googleusercontent.com/d/1ryXYZUyz62HPhc9YClU5Sedp4E3dQpZr=w1000" alt="Medio ambiente">
       <h4>🌍 Medio ambiente</h4>
                       <p>Se anuncia un plan global contra el cambio climático.</p></a>
     </article>
-    <article class="news-card">
+    <article class="news-card_1">
                     <a href="Cultura.html" class="latest-main_1">
       <img src="https://lh3.googleusercontent.com/d/1YJYGhwdA_UldQGYMLRg0bwgT6jTQ-ecw=w1000" alt="Cultura">
       <h4>🎶 Cultura</h4>
                       <p>Festival internacional de música inicia con gran expectativa.</p></a>
     </article>
-    <article class="news-card">
+    <article class="news-card_1">
                     <a href="Salud.html" class="latest-main_1">
       <img src="https://lh3.googleusercontent.com/d/1n1opJ_aRSnz8k_qbuht63n2gYt5XOY9w=w1000" alt="Salud">
       <h4>🏥 Salud</h4>
                       <p>Nuevas medidas sanitarias se aplican en hospitales públicos.</p></a>
     </article>
-    <article class="news-card">
+    <article class="news-card_1">
                     <a href="Ciencia.html" class="latest-main_1">
       <img src="https://lh3.googleusercontent.com/d/1ZX4L5m7LtFu-7TwwgCK20xdfBE9rwCsp=w1000" alt="Ciencia">
       <h4>🚀 Ciencia</h4>
@@ -287,7 +287,7 @@
        <button class="carousel-arrow left">&#10094;</button> 
        <h2>📰 Últimas Noticias</h2>
        <div id="news-carousel">
-         <!-- Aquí se inyectan las .news-card desde noticias.js --> 
+         <!-- Aquí se inyectan las .news-card_1 desde noticias.js --> 
        </div> 
        <button class="carousel-arrow right">&#10095;</button> 
   </section>
@@ -985,16 +985,16 @@ body {
   gap: 12px;
 }
 
-.latest-side .news-card,
-.latest-bottom .news-card {
+.latest-side .news-card_1,
+.latest-bottom .news-card_1 {
   background: #1e1e2f;
   padding: 12px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-.latest-side .news-card img,
-.latest-bottom .news-card img {
+.latest-side .news-card_1 img,
+.latest-bottom .news-card_1 img {
   width: 100%;
   height: 100px;
   object-fit: cover;
@@ -1028,7 +1028,22 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
+/*   ultimas noticias*/
+   @media (max-width: 480px) {
+    .news-card {
+        width: 160px;
+    }
+}
+   @media (max-width: 768px) {
+    .news-card {
+        width: 200px;
+    }
+}
+      @media (max-width: 1108px) {
+    .news-card {
+        width: 200px;
+    }
+}
 /* Destacados */
    .news-highlight {
   min-width: 100%;
@@ -1045,7 +1060,7 @@ body {
   gap: 16px;
 }
 
-.news-card {
+.news-card_3 {
   background: #1e1e2f;
   border-radius: 10px;
   overflow: hidden;
@@ -1053,26 +1068,26 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.news-card img {
+.news-card_3 img {
   width: 100%;
   height: 140px;
   object-fit: cover;
 }
 
-.news-card h3 {
+.news-card_3 h3 {
   font-size: 1.2rem;
   margin: 12px;
   color: #ffd700;
 }
 
-.news-card p {
+.news-card_3 p {
   font-size: 0.95rem;
   line-height: 1.4rem;
   color: #ddd;
   margin: 0 12px 12px;
 }
 
-.news-card:hover {
+.news-card_3:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 20px rgba(255,30,30,0.4);
 }
@@ -1099,6 +1114,7 @@ body {
   .sliderConr { 
     height: 430px; 
   }
+ 
   .slideTit h2 { 
     font-size: 1rem; 
     line-height: 1.4rem; 
@@ -1136,6 +1152,22 @@ body {
     margin: 0; 
   }
 } 
+   /*   destacados*/
+   @media (max-width: 480px) {
+    .news-card_3 {
+        width: 160px;
+    }
+}
+   @media (max-width: 768px) {
+    .news-card_3 {
+        width: 200px;
+    }
+}
+      @media (max-width: 1108px) {
+    .news-card_3 {
+        width: 200px;
+    }
+}
 /*tendencias*/
 /* Contenedor principal con flechas */
 .tendencias-wrapper {
@@ -1228,6 +1260,22 @@ body {
   right: 10px;
 }
 /* 📱 Adaptación a móvil */ @media (max-width: 768px) { #tendencias-list { gap: 12px; overflow-x: auto; /* en móvil permitimos scroll lateral */ padding: 0 10px; } .tendencia-card { width: 220px; /* cards más compactas */ } .tendencia-card img { height: 120px; } .tendencia-card h3 { font-size: 1rem; } .tendencia-card p { font-size: 0.85rem; } /* flechas más pequeñas */ .tendencias-arrow { width: 32px; height: 32px; font-size: 1.2rem; } } @media (max-width: 480px) { #tendencias-list { gap: 10px; } .tendencia-card { width: 180px; /* aún más compactas */ padding: 8px; } .tendencia-card img { height: 100px; } .tendencia-card h3 { font-size: 0.9rem; } .tendencia-card p { font-size: 0.8rem; } /* opcional: ocultar flechas en pantallas muy pequeñas */ .tendencias-arrow { display: none; } }
+/*   reciente*/
+   @media (max-width: 480px) {
+    .news-card_4 {
+        width: 160px;
+    }
+}
+   @media (max-width: 768px) {
+    .news-card_4 {
+        width: 200px;
+    }
+}
+      @media (max-width: 1408px) {
+    .news-card_4 {
+        width: 200px;
+    }
+}
 /*clima*/
   .clima-modern {
   padding: 40px 20px;
