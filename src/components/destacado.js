@@ -51,7 +51,7 @@ function renderDestacados() {
 
   destacados.forEach(item => {
     const card = document.createElement("article");
-    card.classList.add("news-card");
+    card.classList.add("news-card_3");
     card.innerHTML = `
       <a href="${item.link}" class="latest-main_1">
         <img src="${item.img}" alt="${item.titulo}">
@@ -82,7 +82,7 @@ function renderDestacados() {
   scroll-behavior: smooth;
 }
 
-.news-card {
+.news-card_3 {
   min-width: 250px;
   background: #1e1e2f;
   border-radius: 12px;
@@ -92,20 +92,20 @@ function renderDestacados() {
   flex-shrink: 0;
 }
 
-.news-card a {
+.news-card_3 a {
   display: block;
   text-decoration: none;
   color: #fff;
   padding: 12px;
 }
 
-.news-card img {
+.news-card_3 img {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.news-card h3 {
+.news-card_3 h3 {
   font-size: 1rem;
   margin: 0 0 6px 0;
   background: linear-gradient(90deg, #ff1e1e, #ffd700, #2575fc);
@@ -113,7 +113,7 @@ function renderDestacados() {
   -webkit-text-fill-color: transparent;
 }
 
-.news-card:hover {
+.news-card_3:hover {
   transform: scale(1.05);
 }
 
@@ -153,7 +153,7 @@ function renderDestacados() {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .news-card {
+  .news-card_3 {
     min-width: 200px;
   }
   .destacados-arrow {
@@ -164,7 +164,7 @@ function renderDestacados() {
 }
 
 @media (max-width: 480px) {
-  .news-card {
+  .news-card_3 {
     min-width: 160px;
   }
   .destacados-arrow {
