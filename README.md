@@ -11,4 +11,4 @@ Proyecto de noticias personales alojado en GitHub Pages.
 
 ### ⚙️ Notas de Configuración
 - **Dominio:** noticias.gieovannyfrias.com
-- **DNS:** CNAME apuntando a `gieovannyfrias.github.io`
+- **DNS:** CNAME apuntando a `noticias.github.io`
