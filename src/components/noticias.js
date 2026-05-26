@@ -8,7 +8,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1roP2yce8osv4TsaPiSGGyjTjAvgghPeP=w1000",
     fecha: "15 May 2026",
     categoria: "Deportes",
-    link: "Post_9.html"
+    link: "/Post_9"
   },
     {
     titulo: "México, Estados Unidos, Canada - FIFA 2026",
@@ -16,7 +16,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1DAqWO_vmoibF3hwyxeHcMHmtdcmxApI6=w1000",
     fecha: "15 May 2026",
     categoria: "Deportes",
-    link: "Post_8.html"
+    link: "/Post_8"
   },
     {
     titulo: "No dejes a los niños solos.",
@@ -24,7 +24,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1bsBAVO6iJY3swu0JkW__rdoazrwdOWLh=w1000",
     fecha: "14 May 2026",
     categoria: "Peliculas",
-    link: "Post_7.html"
+    link: "/Post_7"
   },
     {
     titulo: "Gmail le dice adios a los 15 gb de almacenamiento gratis al no registrar tu numero telefonico sera 5 gb.",
@@ -32,7 +32,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1xjmb87cuA-xYImzuFlmLGGHw9P2NqUrk=w1000",
     fecha: "14 May 2026",
     categoria: "Tecnologia",
-    link: "Post_6.html"
+    link: "/Post_6"
   },
   {
     titulo: "Whatsapp lanza el modo incognito.",
@@ -40,7 +40,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1Iu8xz8bpfqu1gLrrt7EHV69DxDevdCgm=w1000",
     fecha: "13 May 2026",
     categoria: "Tecnologia",
-    link: "Post_5.html"
+    link: "/Post_5"
   },
   {
     titulo: "El peso mexicano se estable en $17.25 por dólar en México.",
@@ -48,7 +48,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1J7O0Hs3Y_i8bdSLQ3qqEw1L8ht9EoWjm=w1000",
     fecha: "12 May 2026",
     categoria: "Economia",
-    link: "Post_4.html"
+    link: "/Post_4"
   },
   {
     titulo: "Refinería Antonio Dovalí Jaime de Petróleos Mexicanos se incendia.",
@@ -56,7 +56,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1_5RkrbYFvIXTPjHjtHGFmVX6ckYNBvIk=w1000",
     fecha: "11 May 2026",
     categoria: "Tecnologia",
-    link: "Post_3.html"
+    link: "/Post_3"
   },
   {
     titulo: "¿Donde se encuentra el hantavirus?",
@@ -64,7 +64,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1uydFoK-jOeMNVJOfQoeBOgJZ5ilzAXqm=w1000",
     fecha: "7 May 2026",
     categoria: "Salud",
-    link: "Post_2.html"
+    link: "/Post_2"
   },
   {
     titulo: "La CDMX este fin de semana: alerta amarilla por calor de 32 °C.",
@@ -72,7 +72,7 @@ const noticias = [
     img: "https://media.istockphoto.com/id/1132330190/es/foto/plaza-del-z%C3%B3calo-y-catedral-de-la-ciudad-de-m%C3%A9xico-ciudad-de-m%C3%A9xico-m%C3%A9xico.jpg?b=1&s=612x612&w=0&k=20&c=pl4eSp6h7fRAqo5NaxevyYcNw1uTJSGr8npGo8IZT3k=",
     fecha: "1 May 2026",
     categoria: "Medio ambiente",
-    link: "Post_1.html"
+    link: "/Post_1"
   }
 ];
 
