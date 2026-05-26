@@ -16,8 +16,8 @@ function renderFooter() {
       <div class="footer-links">
         <h3>Enlaces rápidos</h3>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Acerca_de.html">Acerca de</a></li>
+          <li><a href="https://noticias.gieovannyfrias.com">Home</a></li>
+          <li><a href="/Acerca_de">Acerca de</a></li>
           <li><a href="#categorias">Categorías</a></li>
           <li><a href="#opinion">Opinión</a></li>
           <li><a href="#multimedia">Multimedia</a></li>
