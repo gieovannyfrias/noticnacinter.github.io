@@ -1,105 +1,105 @@
 const tendencias = [
   {
-    titulo: "La IA transforma la educación",
-    descripcion: "Las plataformas inteligentes personalizan el aprendizaje y mejoran la experiencia de los estudiantes.",
+    titulo: "Estados Unidos acaba de desclasificar sobre fenómenos aéreos no identificados",
+    descripcion: "(OVNIs/UAP).",
+    img: "https://lh3.googleusercontent.com/d/1W2cvo6h5BN4SBvk5Y4qgsCwoCOfS0sge=w1000",
+    link: "/Tendency_1",
+    categoria: "Desconocido",
+    fecha: "May 2026"
+  },
+  {
+    titulo: "Periodistas e influencers son comprados por embajada de Estados Unidos.",
+    descripcion: "Embajada compran periodistas para distorcionar, difamar la comunidad para desestabilizar el pais con información",
+    img: "https://lh3.googleusercontent.com/d/1aEEGa2ZCaYGJfYNmHjkox16eX6wQjOpT=w1000",
+    link: "/Tendency_2",
+    categoria: "Periodismo",
+    fecha: "May 2026"
+  },
+  {
+      titulo: "Papa León XIV.",
+    descripcion: "Papa vs IA",
+    img: "https://lh3.googleusercontent.com/d/1X7uF0hG9-VCYVUOgRwnnDAD4Q--J9Cu3=w1000",
+    link: "/Tendency_3",
+    categoria: "Religion",
+    fecha: "May 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Tecnología",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
+    fecha: "Ene 2026"
+  },
+    {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "/No_disponible",
+    categoria: "Virtual",
     fecha: "Ene 2026"
   },
   {
-    titulo: "Blockchain en gobiernos",
-    descripcion: "Los sistemas públicos adoptan blockchain para mayor transparencia y seguridad.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Innovación",
-    fecha: "Ene 2026"
-  },
-  {
-    titulo: "El metaverso gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-    {
-    titulo: "El universal galatico gana terreno",
-    descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
-  },
-  {
-    titulo: "Startups latinas en auge",
-    descripcion: "Nuevos emprendimientos tecnológicos de Latinoamérica conquistan mercados globales.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
+    link: "/No_disponible",
     categoria: "Negocios",
     fecha: "Ene 2026"
   }
