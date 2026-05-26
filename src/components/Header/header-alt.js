@@ -11,15 +11,15 @@ function renderHeader() {
       <!-- Botón hamburguesa -->
       <div class="hamburger" id="hamburger">☰</div>
       <ul class="nav-links" id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Acerca_de.html">Acerca de</a></li>
-        <li><a href="index.html#destacados">Destacados</a></li>
-        <li><a href="index.html#tendencias">Tendencias</a></li>
-        <li><a href="index.html#reciente">Reciente</a></li>
-        <li><a href="index.html#nacional">Nacional</a></li>
-        <li><a href="index.html#internacional">Internacional</a></li>
-        <li><a href="index.html#ultimas">Últimas Noticias</a></li>
-        <li><a href="index.html#contacto">Contacto</a></li>
+        <li><a href="https://noticias.gieovannyfrias.com">Home</a></li>
+        <li><a href="/Acerca_de">Acerca de</a></li>
+        <li><a href="/index#destacados">Destacados</a></li>
+        <li><a href="/index#tendencias">Tendencias</a></li>
+        <li><a href="/index#reciente">Reciente</a></li>
+        <li><a href="/index#nacional">Nacional</a></li>
+        <li><a href="/index#internacional">Internacional</a></li>
+        <li><a href="/index#ultimas">Últimas Noticias</a></li>
+        <li><a href="/index#contacto">Contacto</a></li>
       </ul>
     </nav>
   `;
