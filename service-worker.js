@@ -1,5 +1,5 @@
-const CACHE_NAME = 'noticias-static-v1';
-const NEWS_CACHE = 'noticias-cache-v1';
+const CACHE_NAME = 'noticnacinter-static-v1';
+const NEWS_CACHE = 'noticnacinter-cache-v1';
 
 const APP_SHELL = [
   './index.html',
