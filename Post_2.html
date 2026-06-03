@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-   <link rel="icon" href="https://noticias.gieovannyfrias.com/Imagenes/Logo.webp" type="image/x-icon">
+   <link rel="icon" href="https://noticnacinter.gieovannyfrias.com/Imagenes/Logo.webp" type="image/x-icon">
   <title> ¿Donde se encuentra el hantavirus?</title>
 
 <!--  canonical web-->
-  <link rel="canonical" href="https://noticias.gieovannyfrias.com"/>
+  <link rel="canonical" href="https://noticnacinter.gieovannyfrias.com"/>
 
 <!-- Título que verá Google -->
 <meta name="title" content="¿Donde se encuentra el hantavirus?">
@@ -19,7 +19,7 @@
 <meta property="og:title" content="¿Dónde se encuentra el hantavirus?">
 <meta property="og:description" content="Precaución con roedores.">
 <meta property="og:image" content="https://drive.usercontent.google.com/download?id=1uydFoK-jOeMNVJOfQoeBOgJZ5ilzAXqm&export=view&authuser=0">
-<meta property="og:url" content="https://noticias.gieovannyfrias.com/Post_2">
+<meta property="og:url" content="https://noticnacinter.gieovannyfrias.com/Post_2">
 <meta property="og:type" content="article">
 
 <!-- Twitter Card -->
@@ -45,24 +45,24 @@
   },
   "publisher": {
     "@type": "WebSite",
-    "name": "Gieovanny Frías Noticias",
+    "name": "Noticnacinter",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://noticias.gieovannyfrias.com/Imagenes/Logo.webp"
+      "url": "https://noticnacinter.gieovannyfrias.com/Imagenes/Logo.webp"
     }
   },
   "articleSection": "Salud",
 "keywords": ["virus humanos", "virología" , "enfermedades virales", "infección viral", "tipos de virus", "transmisión de virus", "síntomas virales", "prevención de enfermedades", "patógenos humanos", "viruz humano", "salud pública", "diagnóstico viral"],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://noticias.gieovannyfrias.com/Post_2"
+    "@id": "https://noticnacinter.gieovannyfrias.com/Post_2"
   }
 }
 </script>
 
 </head>
 <body>
-<audio id="audioelement" src="https://noticias.gieovannyfrias.com/Musica/post.mp3" loop></audio>
+<audio id="audioelement" src="https://noticnacinter.gieovannyfrias.com/Musica/post.mp3" loop></audio>
 
  <main>
 
@@ -142,21 +142,21 @@ El SPHV está producido por el Virus Sin Nombre, pero otros virus también está
   </div>
 
   <div class="share-buttons">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://noticias.gieovannyfrias.com/Post_2.html"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://noticnacinter.gieovannyfrias.com/Post_2.html"
        target="_blank" rel="noopener noreferrer" 
        class="btn-share facebook" 
        onclick="showImage(this)" 
        title="¿Dónde se encuentra el hantavirus?" 
        data-description="Precaución con roedores.">Facebook</a>
 
-    <a href="https://twitter.com/intent/tweet?url=https://noticias.gieovannyfrias.com/Post_2.html&text=¿Dónde%20se%20encuentra%20el%20hantavirus?"
+    <a href="https://twitter.com/intent/tweet?url=https://noticnacinter.gieovannyfrias.com/Post_2.html&text=¿Dónde%20se%20encuentra%20el%20hantavirus?"
        target="_blank" rel="noopener noreferrer" 
        class="btn-share twitter" 
        onclick="showImage(this)" 
        title="¿Dónde se encuentra el hantavirus?" 
        data-description="Precaución con roedores.">Twitter/X</a>
 
-    <a href="https://api.whatsapp.com/send?text=¿Dónde%20se%20encuentra%20el%20hantavirus?%20https://noticias.gieovannyfrias.com/Post_2.html" 
+    <a href="https://api.whatsapp.com/send?text=¿Dónde%20se%20encuentra%20el%20hantavirus?%20https://noticnacinter.gieovannyfrias.com/Post_2.html" 
        target="_blank" rel="noopener noreferrer" 
        class="btn-share whatsapp" 
        onclick="showImage(this)" 
@@ -215,8 +215,33 @@ El SPHV está producido por el Virus Sin Nombre, pero otros virus también está
 }
 
 .post-image img {
-  width: 100%;
-  border-radius: 12px;
+    width: 100%;
+    border-radius: 12px;
+    height: auto; /* mantiene proporción sin forzar altura */
+    max-height: 800px; /* límite opcional para pantallas grandes */
+    object-fit: cover; /* recorta elegantemente si es necesario */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.post-image img:hover {
+    transform: scale(1.05); /* zoom ligero */
+    filter: brightness(1.1); /* aumenta la luminosidad */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* sombra elegante */
+}
+/* Ajuste para pantallas medianas */
+@media (max-width: 1024px) {
+    .post-image img {
+        height: 600px;
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .post-image img {
+        height: auto; /* se adapta automáticamente */
+        max-height: 400px; /* límite opcional */
+    }
 }
 
 .post-title {
