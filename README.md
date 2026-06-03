@@ -1,7 +1,7 @@
-# 📰 Portal de Gieovanny Frías | Noticias
+# 📰 Portal de Noticnacinter
 Proyecto de noticias personales alojado en GitHub Pages.
 
-🔗 **Sitio Web:** [noticias.gieovannyfrias.com](https://noticias.gieovannyfrias.com)
+🔗 **Sitio Web:** [noticnacinter.gieovannyfrias.com](https://noticnacinter.gieovannyfrias.com)
 
 ---
 
@@ -10,5 +10,5 @@ Proyecto de noticias personales alojado en GitHub Pages.
 2. Los cambios se reflejan automáticamente en el subdominio.
 
 ### ⚙️ Notas de Configuración
-- **Dominio:** noticias.gieovannyfrias.com
-- **DNS:** CNAME apuntando a `noticias.github.io`
+- **Dominio:** noticnacinter.gieovannyfrias.com
+- **DNS:** CNAME apuntando a `noticnacinter.github.io`
