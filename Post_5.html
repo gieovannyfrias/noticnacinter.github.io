@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-   <link rel="icon" href="https://noticias.gieovannyfrias.com/Imagenes/Logo.webp" type="image/x-icon">
+   <link rel="icon" href="https://noticnacinter.gieovannyfrias.com/Imagenes/Logo.webp" type="image/x-icon">
   <title> Whatsapp lanza el modo incognito.</title>
 
 <!--  canonical web-->
-  <link rel="canonical" href="https://noticias.gieovannyfrias.com"/>
+  <link rel="canonical" href="https://noticnacinter.gieovannyfrias.com"/>
 
 <!-- Título que verá Google -->
 <meta name="title" content="Whatsapp lanza el modo incognito.">
@@ -19,7 +19,7 @@
 <meta property="og:title" content="Whatsapp lanza el modo incognito.">
 <meta property="og:description" content="Meta IA">
 <meta property="og:image" content="https://drive.usercontent.google.com/download?id=1Iu8xz8bpfqu1gLrrt7EHV69DxDevdCgm&export=view&authuser=0">
-<meta property="og:url" content="https://noticias.gieovannyfrias.com/Post_5">
+<meta property="og:url" content="https://noticnacinter.gieovannyfrias.com/Post_5">
 <meta property="og:type" content="article">
 
 <!-- Twitter Card -->
@@ -45,24 +45,24 @@
   },
   "publisher": {
     "@type": "WebSite",
-    "name": "Gieovanny Frías Noticias",
+    "name": "Noticnacinter",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://noticias.gieovannyfrias.com/Imagenes/Logo.webp"
+      "url": "https://noticnacinter.gieovannyfrias.com/Imagenes/Logo.webp"
     }
   },
   "articleSection": "Incendio",
 "keywords": ["meta", "IA" , "whatsapp", "incognito", "apk", " actualizaciones"],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://noticias.gieovannyfrias.com/Post_5"
+    "@id": "https://noticnacinter.gieovannyfrias.com/Post_5"
   }
 }
 </script>
 
 </head>
 <body>
-<audio id="audioelement" src="https://noticias.gieovannyfrias.com/Musica/post.mp3" loop></audio>
+<audio id="audioelement" src="https://noticnacinter.gieovannyfrias.com/Musica/post.mp3" loop></audio>
 
  <main>
 
@@ -128,21 +128,21 @@ Esta nueva característica no debe confundirse con funciones básicas de privaci
   </div>
 
   <div class="share-buttons">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://noticias.gieovannyfrias.com/Post_5.html"
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://noticnacinter.gieovannyfrias.com/Post_5.html"
        target="_blank" rel="noopener noreferrer" 
        class="btn-share facebook" 
        onclick="showImage(this)" 
        title="Whatsapp lanza el modo incognito." 
        data-description="Meta IA.">Facebook</a>
 
-    <a href="https://twitter.com/intent/tweet?url=https://noticias.gieovannyfrias.com/Post_5.html&text=Whatsapp%20lanza%20el%20modo%20incognito.%20"
+    <a href="https://twitter.com/intent/tweet?url=https://noticnacinter.gieovannyfrias.com/Post_5.html&text=Whatsapp%20lanza%20el%20modo%20incognito.%20"
        target="_blank" rel="noopener noreferrer" 
        class="btn-share twitter" 
        onclick="showImage(this)" 
        title="Whatsapp lanza el modo incognito." 
        data-description="Meta IA.">Twitter/X</a>
 
-    <a href="https://api.whatsapp.com/send?text=Whatsapp%20lanza%20el%20modo%20incognito.%20https://noticias.gieovannyfrias.com/Post_5.html" 
+    <a href="https://api.whatsapp.com/send?text=Whatsapp%20lanza%20el%20modo%20incognito.%20https://noticnacinter.gieovannyfrias.com/Post_5.html" 
        target="_blank" rel="noopener noreferrer" 
        class="btn-share whatsapp" 
        onclick="showImage(this)" 
@@ -201,9 +201,33 @@ Esta nueva característica no debe confundirse con funciones básicas de privaci
 }
 
 .post-image img {
-  width: 100%;
-  border-radius: 12px;
-  height: 500px;
+    width: 100%;
+    border-radius: 12px;
+    height: auto; /* mantiene proporción sin forzar altura */
+    max-height: 800px; /* límite opcional para pantallas grandes */
+    object-fit: cover; /* recorta elegantemente si es necesario */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.post-image img:hover {
+    transform: scale(1.05); /* zoom ligero */
+    filter: brightness(1.1); /* aumenta la luminosidad */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* sombra elegante */
+}
+/* Ajuste para pantallas medianas */
+@media (max-width: 1024px) {
+    .post-image img {
+        height: 600px;
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .post-image img {
+        height: auto; /* se adapta automáticamente */
+        max-height: 400px; /* límite opcional */
+    }
 }
 
 .post-title {
