@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noticias.gieovannyfrias.com
+Sitemap: https://noticnacinter.gieovannyfrias.com
