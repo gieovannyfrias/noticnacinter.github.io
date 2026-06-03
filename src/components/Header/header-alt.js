@@ -7,7 +7,7 @@ function renderHeader() {
   header.innerHTML = `
   <div class="top-bar"> <span>📞 (+52)55-51-57-01-60  | ✉️ noticias@gieovannyfrias.com</span> </div>
     <nav class="navbar">
-      <h1 class="logo">Gieovanny Frías Noticias</h1>
+      <h1 class="logo">Noticnacinter</h1>
       <!-- Botón hamburguesa -->
       <div class="hamburger" id="hamburger">☰</div>
       <ul class="nav-links" id="nav-links">
