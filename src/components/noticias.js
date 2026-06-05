@@ -2,7 +2,39 @@
 
 // Array de noticias compartido
 const noticias = [
-      {
+     {
+    titulo: "El Servicio Meteorológico Nacional de ciclon pacifico.",
+    descripcion: "Ciclon en pacifico sur.",
+    img: "https://lh3.googleusercontent.com/d/1N2s2hUE9aFeTgkC_vUU5WwgImhbPhVwu=w1000",
+    fecha: "04 jun 2026",
+    categoria: "Clima",
+    link: "/Post_13"
+  },  
+  {
+    titulo: "Apagon de CFE en algunos municipios de pais México.",
+    descripcion: "CFE apagon masivo en algunos estados de la republica.",
+    img: "https://lh3.googleusercontent.com/d/1WETDAJ4PLw6LANM59bUr2UnyIYMJlCdx=w1000",
+    fecha: "04 jun 2026",
+    categoria: "Electricidad",
+    link: "/Post_12"
+  },  
+  {
+    titulo: "Protestas de la CNTE en la CDMX.",
+    descripcion: "CNTE en CDMX.",
+    img: "https://lh3.googleusercontent.com/d/1g1sxrDUQpESB4wv0ba7DYkr-hPbO4Yfo=w1000",
+    fecha: "04 jun 2026",
+    categoria: "Educación",
+    link: "/Post_11"
+  },  
+  {
+    titulo: "IA en educación superior.",
+    descripcion: "SEP.",
+    img: "https://lh3.googleusercontent.com/d/1PNzvVly1IoGuaR7Vmx8U-p77hUXBPle_=w1000",
+    fecha: "20 May 2026",
+    categoria: "Educación",
+    link: "/Post_10"
+  },  
+  {
     titulo: "El Estadio Banorte cambia su nombre a Estadio Ciudad de México por segunda vez.",
     descripcion: "Decisión del FIFA que no debe de tener nombre de marca comerciales.",
     img: "https://lh3.googleusercontent.com/d/1roP2yce8osv4TsaPiSGGyjTjAvgghPeP=w1000",
