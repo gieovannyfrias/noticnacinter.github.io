@@ -3,40 +3,40 @@
 // Array de destacados
 const destacados = [
   {
-    titulo: "⚡ Reforma electoral aprobada",
-    descripcion: "El Congreso aprueba una nueva reforma tras intenso debate parlamentario.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-        categoria: "Virtual",
-        fecha: "Ene 2026"
+    titulo: "Estado de México en Ecatepec con mas inseguridad.",
+    descripcion: "Asaltos en el transporte publico.",
+    img: "https://lh3.googleusercontent.com/d/1Mie4YT9Th2FzHsRMbmlfvLZ7QcfQAV3k=w1000",
+    link: "/Destacado_1",
+        categoria: "Transporte",
+        fecha: "May 2026"
   },
   {
-    titulo: "🌍 Economíada un giro mundial",
-    descripcion: "El peso mexicano se fortalece frente al dólar en los mercados internacionales.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-        categoria: "Virtual",
-            fecha: "Ene 2026"
-  },
-  {
-    titulo: "🏆 Deportes la seleccion",
-    descripcion: "La selección nacional logra una clasificación histórica en el torneo.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
   {
-    titulo: "💡 Tecnología en china mundial",
-    descripcion: "Avance en inteligencia artificial revoluciona la industria global.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
   {
-    titulo: "🌱 Medio ambiente esta colapsando",
-    descripcion: "Se anuncia un plan global contra el cambio climático.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
+    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    link: "No_disponible.html",
+        categoria: "Virtual",
+            fecha: "Ene 2026"
+  },
+  {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
@@ -108,7 +108,7 @@ function renderDestacados() {
 .news-card_3 h3 {
   font-size: 1rem;
   margin: 0 0 6px 0;
-  background: linear-gradient(90deg, #ff1e1e, #ffd700, #2575fc);
+background: linear-gradient(90deg, #ffffff, #2575fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
