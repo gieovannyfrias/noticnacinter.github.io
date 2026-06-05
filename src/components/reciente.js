@@ -3,51 +3,51 @@
 // Array de noticias recientes
 const recientes = [
   {
-    titulo: "🎨 Evento cultural",
-    descripcion: "Se inaugura una exposición de arte contemporáneo en el centro histórico.",
+    titulo: "Respaldo de México con ex presidente AMLO y Relación con Estados Unidos con Donald Trump.",
+    descripcion: "México vs EE.UU.",
+    img: "https://lh3.googleusercontent.com/d/1k5x9I-bT8rm7kRGNvDLI47_pNlYeiBq_=w1000",
+    link: "/Recent_1",
+        categoria: "Politica",
+            fecha: "Jun 2026"  },
+  {
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
   {
-    titulo: "🎶 Concierto sorpresa",
-    descripcion: "Una banda internacional ofrece un show inesperado en la plaza principal.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "No_disponible.html",
-        categoria: "Virtual",
-            fecha: "Ene 2026"  },
-  {
-    titulo: "📚 Feria del libro",
-    descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
    {
-    titulo: "📚 Feria del libro",
-    descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
    {
-    titulo: "📚 Feria del libro",
-    descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
    {
-    titulo: "📚 Feria del libro",
-    descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "detalle.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
   {
-    titulo: "🏃 Carrera solidaria",
-    descripcion: "Miles de participantes se unen para apoyar causas benéficas.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
         categoria: "Virtual",
@@ -118,7 +118,7 @@ function renderRecientes() {
 .news-card_4 h3 {
   font-size: 1rem;
   margin: 0 0 6px 0;
-  background: linear-gradient(90deg, #ff1e1e, #ffd700, #2575fc);
+background: linear-gradient(90deg, #ffffff, #2575fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
