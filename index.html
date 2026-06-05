@@ -1261,21 +1261,35 @@ body {
 }
 /* 📱 Adaptación a móvil */ @media (max-width: 768px) { #tendencias-list { gap: 12px; overflow-x: auto; /* en móvil permitimos scroll lateral */ padding: 0 10px; } .tendencia-card { width: 220px; /* cards más compactas */ } .tendencia-card img { height: 120px; } .tendencia-card h3 { font-size: 1rem; } .tendencia-card p { font-size: 0.85rem; } /* flechas más pequeñas */ .tendencias-arrow { width: 32px; height: 32px; font-size: 1.2rem; } } @media (max-width: 480px) { #tendencias-list { gap: 10px; } .tendencia-card { width: 180px; /* aún más compactas */ padding: 8px; } .tendencia-card img { height: 100px; } .tendencia-card h3 { font-size: 0.9rem; } .tendencia-card p { font-size: 0.8rem; } /* opcional: ocultar flechas en pantallas muy pequeñas */ .tendencias-arrow { display: none; } }
 /*   reciente*/
-   @media (max-width: 480px) {
+.news-card_4 {
+    width: 100%;
+    max-width: 320px; /* límite máximo para pantallas grandes */
+}
+
+/* Teléfonos pequeños */
+@media (max-width: 480px) {
     .news-card_4 {
-        width: 160px;
+        width: 90%; /* ocupa casi todo el ancho */
+        max-width: 160px;
     }
 }
-   @media (max-width: 768px) {
+
+/* Tablets pequeñas */
+@media (max-width: 768px) {
     .news-card_4 {
-        width: 200px;
+        width: 80%;
+        max-width: 200px;
     }
 }
-      @media (max-width: 1408px) {
+
+/* Pantallas medianas */
+@media (max-width: 1408px) {
     .news-card_4 {
-        width: 200px;
+        width: 70%;
+        max-width: 240px;
     }
 }
+
 /*clima*/
   .clima-modern {
   padding: 40px 20px;
@@ -1490,7 +1504,7 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
     }
 
     .card_1 {
-      background: #fff;
+      background: #1e1e2f;
       border-radius: 12px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.1);
       overflow: hidden;
