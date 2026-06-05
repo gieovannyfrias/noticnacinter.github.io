@@ -3,43 +3,43 @@
 // Array de recomendados
 const recomendados = [
   {
-    titulo: "Captura a Nicolás Maduro",
-    descripcion: "Contenido sugerido según tus intereses.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
-    titulo: "México se une con China",
-    descripcion: "Contenido sugerido según tus intereses.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
-    titulo: "España entra en paro",
-    descripcion: "Contenido sugerido según tus intereses.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
-    titulo: "Puebla entra en crisis",
-    descripcion: "Contenido sugerido según tus intereses.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
-    titulo: "Incendio en Cámara de Diputados",
-    descripcion: "Contenido sugerido según tus intereses.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
-    titulo: "Nuevo Tren Maya",
-    descripcion: "Contenido sugerido según tus intereses.",
+    titulo: "No disponible - Titulo",
+    descripcion: "No disponible - Descripción.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
@@ -88,7 +88,7 @@ function renderRecomendados() {
 
 .card_1 {
   min-width: 250px;
-  background: #1e1e2f;
+  background: ;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0,0,0,0.5);
@@ -109,7 +109,7 @@ function renderRecomendados() {
 .contenido_1 h3 {
   font-size: 1rem;
   margin: 0 0 6px 0;
-  background: linear-gradient(90deg, #ff1e1e, #ffd700, #2575fc);
+background: linear-gradient(90deg, #ffffff, #2575fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
