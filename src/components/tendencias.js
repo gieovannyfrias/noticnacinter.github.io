@@ -24,12 +24,12 @@ const tendencias = [
     fecha: "May 2026"
   },
     {
-    titulo: "No disponible - Titulo",
-    descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "/No_disponible",
-    categoria: "Virtual",
-    fecha: "Ene 2026"
+    titulo: "Visa y MasterCard bloquean a Cuba.",
+    descripcion: "EE.UU da sanciones finanzas comerciales a cuba.",
+    img: "https://lh3.googleusercontent.com/d/1vn_Xg7wTsk_s8wbhXckkgf-e7P3i76M4=w1000",
+    link: "/Tendency_4",
+    categoria: "Incendio",
+    fecha: "Jun 2026"
   },
     {
     titulo: "No disponible - Titulo",
