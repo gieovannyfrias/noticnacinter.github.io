@@ -163,6 +163,9 @@ background: linear-gradient(90deg, #ffffff, #2575fc);
     height: 32px;
     font-size: 1.2rem;
   }
+#recomendado-grid{
+    overflow-x: auto;
+}
 }
 
 @media (max-width: 480px) {
