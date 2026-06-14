@@ -234,6 +234,9 @@ function renderNoticias(contenedorId) {
     height: 32px;
     font-size: 1.2rem;
   }
+#news-carousel {
+        overflow-x: auto;
+}
 }
 
 @media (max-width: 480px) {
