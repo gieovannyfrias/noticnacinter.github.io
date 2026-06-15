@@ -87,7 +87,7 @@ function renderFooter() {
 
 .footer-logo h2 {
   font-size: 1.6rem;
-  background: linear-gradient(90deg, #ff1e1e, #ffd700, #2575fc);
+background: linear-gradient(135deg, #ffffff, #1e3c72, #2a5298);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
