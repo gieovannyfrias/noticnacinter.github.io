@@ -1418,7 +1418,7 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
 /* Efecto hover moderno */
 .categoria-card:hover {
   transform: translateY(-8px) scale(1.05);
-  background: linear-gradient(135deg, #ff1e1e, #ffd700, #2575fc);
+background: linear-gradient(135deg, #ffffff, #1e3c72, #2a5298);
   color: #000;
 }
 
@@ -1433,8 +1433,9 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
 /* 📱 Adaptación a móviles */
 @media (max-width: 768px) {
   .categorias-grid {
-    flex-direction: column; /* tarjetas en columna */
-    align-items: center;
+   align-items: center;
+        display: flex;
+        flex-wrap: wrap;
   }
 
   .categoria-card {
@@ -1453,7 +1454,6 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
 /* 📱 Adaptación a móviles pequeños (480px o menos) */
 @media (max-width: 480px) {
   .categorias-grid {
-    flex-direction: column;   /* tarjetas en columna */
     align-items: center;      /* centradas */
     gap: 15px;                /* menos espacio entre ellas */
   }
@@ -1496,11 +1496,14 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
       border-bottom: 3px solid #e60000;
       padding-bottom: 10px;
     }
-
+/*nacional/local*/
     .grid_1 {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
+        /* 👇 Extra para scroll */
+  max-height: 600px; /* Ajusta según tu diseño */
+  overflow-y: auto;  /* Activa la barra vertical */
     }
 
     .card_1 {
@@ -1509,6 +1512,9 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
       box-shadow: 0 6px 12px rgba(0,0,0,0.1);
       overflow: hidden;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      /* 👇 Scroll interno */
+  max-height: 300px;
+  overflow-y: auto;
     }
 
     .card_1:hover {
@@ -1543,29 +1549,25 @@ background: linear-gradient(135deg, #00c6ff, #0072ff);
       color: #777;
     }
            /* 📱 Adaptación a móviles */
-    @media (max-width: 768px) {
- 
+/* 📱 Adaptación a móviles */
+@media (max-width: 768px) {
+  .card_1 {
+    max-height: 450px;   /* Más alto en móvil */
+    overflow-y: auto;    /* Mantiene la barra vertical */
+  }
 
-      .seccion_1 .subtitle_2 {
-        font-size: 1.3rem;
-      }
+  .card_1 .img_1 {
+    height: 180px;       /* Imagen más grande en móvil */
+  }
 
-      .grid_1 {
-        grid-template-columns: 1fr; /* Una sola columna en móviles */
-      }
+  .contenido_1 h3 {
+    font-size: 1rem;
+  }
 
-      .card_1 .img_1 {
-        height: 180px; /* Imagen más grande en móvil */
-      }
-
-      .contenido_1 h3 {
-        font-size: 1rem;
-      }
-
-      .contenido_1 p {
-        font-size: 0.85rem;
-      }
-    }
+  .contenido_1 p {
+    font-size: 0.85rem;
+  }
+}
    /*opinion editorial*/
 .opinion-modern {
   text-align: center;
