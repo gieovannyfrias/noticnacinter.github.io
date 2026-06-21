@@ -34,7 +34,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -42,7 +42,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -50,7 +50,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -58,7 +58,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -66,7 +66,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -74,7 +74,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -82,7 +82,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -90,7 +90,7 @@ const tendencias = [
     {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Virtual",
     fecha: "Ene 2026"
@@ -98,7 +98,7 @@ const tendencias = [
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "/No_disponible",
     categoria: "Negocios",
     fecha: "Ene 2026"
