@@ -5,42 +5,42 @@ const recomendados = [
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "No disponible - Titulo",
     descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
+    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
     link: "No_disponible.html",
     fecha: "22 Ene 2026"
   }
