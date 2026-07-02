@@ -3,11 +3,11 @@
 // Array de recomendados
 const recomendados = [
   {
-    titulo: "No disponible - Titulo",
-    descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
-    link: "No_disponible.html",
-    fecha: "22 Ene 2026"
+    titulo: "WhatsApp acaba de agregar por Nombre de Usuario a nivel global.",
+    descripcion: "Android y Phone.",
+    img: "https://lh3.googleusercontent.com/d/19_r5Tnzx6p6AI59-pAAstn80rK2ASo2m=w1000",
+    link: "/Recommended",
+    fecha: "01 Jul 2026"
   },
   {
     titulo: "No disponible - Titulo",
