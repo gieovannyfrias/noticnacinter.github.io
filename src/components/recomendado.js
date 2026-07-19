@@ -10,18 +10,18 @@ const recomendados = [
     fecha: "01 Jul 2026"
   },
   {
-    titulo: "No disponible - Titulo",
-    descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
-    link: "No_disponible.html",
-    fecha: "22 Ene 2026"
+    titulo: "Facebook, instagram y WhatsApp plus.",
+    descripcion: "Meta plus.",
+    img: "https://lh3.googleusercontent.com/d/1pnZgGQhuSY1uRAtjuIwAv2PL5A-37imh=w1000",
+    link: "/Recommended_2",
+    fecha: "19 Jul 2026"
   },
   {
-    titulo: "No disponible - Titulo",
-    descripcion: "No disponible - Descripción.",
-    img: "https://lh3.googleusercontent.com/d/1fRq5Dn_MGI9yqDKYPLZddcVZgvMOScgU=w1000",
-    link: "No_disponible.html",
-    fecha: "22 Ene 2026"
+    titulo: "Final Mundial de Fútbol 2026.",
+    descripcion: "España vs Argentina.",
+    img: "https://lh3.googleusercontent.com/d/19ZtWu4sV2wOlwYMD6Xymp5kw9t2GB1wm=w1000",
+    link: "/Recommended_1",
+    fecha: "19 Jul 2026"
   },
   {
     titulo: "No disponible - Titulo",
