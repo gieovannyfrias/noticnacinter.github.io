@@ -11,7 +11,7 @@ function renderHeader() {
       <!-- Botón hamburguesa -->
       <div class="hamburger" id="hamburger">☰</div>
       <ul class="nav-links" id="nav-links">
-        <li><a href="https://noticias.gieovannyfrias.com">Home</a></li>
+        <li><a href="https://noticnacinter.gieovannyfrias.com">Home</a></li>
         <li><a href="/Acerca_de">Acerca de</a></li>
         <li><a href="#destacados">Destacados</a></li>
         <li><a href="#tendencias">Tendencias</a></li>
