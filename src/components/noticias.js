@@ -3,6 +3,14 @@
 // Array de noticias compartido
 const noticias = [
      {
+    titulo: "Google Earth Pro no estara disponible en junio 2027",
+    descripcion: "Retiro oficial descargas en la plataforma solamente va estar en la nube de google linea y se guardara en drive mapas.",
+    img: "https://lh3.googleusercontent.com/d/1fq60_iN-TQvEPYUdf-sDLVcsOUeTcOoT=w1000",
+    fecha: "04 jun 2026",
+    categoria: "Clima",
+    link: "/Post_14"
+  },
+  {
     titulo: "El Servicio Meteorológico Nacional de ciclon pacifico.",
     descripcion: "Ciclon en pacifico sur.",
     img: "https://lh3.googleusercontent.com/d/1N2s2hUE9aFeTgkC_vUU5WwgImhbPhVwu=w1000",
