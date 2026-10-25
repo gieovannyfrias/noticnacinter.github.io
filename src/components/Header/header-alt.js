@@ -7,7 +7,7 @@ function renderHeader() {
   header.innerHTML = `
   <div class="top-bar"> <span>📞 (+52)55-51-57-01-60  | ✉️ noticias@gieovannyfrias.com</span> </div>
     <nav class="navbar">
-      <h1 class="logo">Noticnacinter</h1>
+      <h1 class="logo"><img src="https://noticnacinter.gieovannyfrias.com/Imagenes/Logo_transparente.webp" style="width: 60px; height: 60px;">Noticnacinter</h1>
       <!-- Botón hamburguesa -->
       <div class="hamburger" id="hamburger">☰</div>
       <ul class="nav-links" id="nav-links">
@@ -70,37 +70,49 @@ text-align: center;
   justify-content: space-between;
   align-items: center;
 }
-
-.logo {
-  font-size: 2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #fff;
-  position: relative;
-  font-family: 'Poppins', sans-serif;
-  cursor: pointer;
-  text-shadow: 0 0 8px rgba(0,245,255,0.6),
-               0 0 16px rgba(255,30,30,0.6),
-               0 0 24px rgba(255,215,0,0.6);
+.logo { 
+  font-size: 2rem; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  letter-spacing: 4px; 
+  color: #fff; 
+  position: relative; 
+  font-family: 'Poppins', sans-serif; 
+  cursor: pointer; 
+  /* Brillo dorado sutil y elegante en lugar de multicolor */
+  text-shadow: 0 2px 10px rgba(212, 175, 55, 0.3); 
+  transition: color 0.3s ease;
 }
 
-/* Subrayado animado */
-.logo::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(90deg, #00f5ff, #ff1e1e, #ffd700);
-  animation: underlineMove 3s infinite linear;
+/* Efecto hover opcional para aumentar el contraste corporativo */
+.logo:hover {
+  color: #f3e5ab; /* Tono oro champán al pasar el cursor */
 }
 
-@keyframes underlineMove {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
+/* Subrayado animado dorado corporativo */
+.logo::after { 
+  content: ''; 
+  position: absolute; 
+  left: 0; 
+  bottom: -6px; 
+  width: 100%; 
+  height: 2px; /* Ligeramente más fina para mayor elegancia */
+  /* Paleta: Oro viejo, Oro brillante, Champán, Oro brillante, Oro viejo */
+  background: linear-gradient(90deg, #c5a059, #f3e5ab, #ffffff, #f3e5ab, #c5a059); 
+  background-size: 200% 100%; 
+  animation: goldMove 4s infinite linear; /* Movimiento más pausado y distinguido */
 }
+
+@keyframes goldMove { 
+  0% { 
+    background-position: 0% 0%; 
+  } 
+  100% { 
+    background-position: 200% 0%; 
+  } 
+}
+
+
 
 .nav-links {
   list-style: none;
